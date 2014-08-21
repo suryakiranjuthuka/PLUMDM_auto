@@ -1,0 +1,623 @@
+@import url("../../../INDEX/global_fonts/museosans_100/stylesheet.css");
+@import url("../../../INDEX/global_fonts/museosans_500/stylesheet.css");
+@import url("../../../INDEX/global_fonts/museosans_300/stylesheet.css");
+@import url("../../../INDEX/global_fonts/museosans_100italic/stylesheet.css");
+
+#templateContainer {
+	background-color: #e9e9e9;
+	margin:100px 50px 0px 250px;
+	overflow:auto;
+	height:90%;
+	min-width:1026px;
+	position:relative;
+	font-family: "museo-sans";
+}
+
+#templateContainer1 {
+	background-color: #e9e9e9;
+	position:relative;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-family: "museo-sans";
+}
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	background: #e9e9e9;
+	font-family: "museo-sans";
+}
+
+
+#reformed-form2 {
+	float: right;
+margin-right: 60px;
+margin-top: -250px;
+}
+
+ #wrapper img{
+	border: 0;
+}
+
+ #wrapper h1,h2,h3,h4{
+	font-weight: normal;
+}
+
+.callme{
+	color: #0A3454;
+	margin-top: -15px;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.error2{
+	color: red;
+	font-size: .7em;	
+	background-image: url("../images/error_bubble.png");
+	width: 320px;
+	height: 147px;
+	position: absolute;
+	left: 320px;
+	top: 250px;
+	
+}
+
+.error2 h1{
+	font-size: 1em;
+	color: red;
+	margin-left: 25px;
+}
+
+.error2 ul{
+	margin-top: -10px;
+}
+
+
+
+#wrapper{
+	position: relative;
+	z-index: 1;
+	width: 1000px;
+	margin: 0 auto;
+	background: white;
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+	box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+}
+
+
+header h1{
+	font-family: "museosans 100";
+		margin-top: 0;
+	color: #0a3454;
+	font-size: 1.75em;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-top: 13px;
+}
+
+header h2{
+	font-size: 1.4em;
+	color: #3c85aa;
+	font-weight: 500;
+	font-style: italic;
+	margin-top: -13px;
+	font-family: "museosans 100italic";
+}
+#datesContainer {
+	margin: 10px auto 30px;
+	padding: 0px;
+	height: 80px;
+	width: 1000px;
+	font-family: "museosans 500";
+	color: #000;
+	position:relative;
+}
+
+#date_1 {
+	height: 80px;
+	font-family: "museosans 300";
+	color: #000;
+	font-weight: normal;
+	display:inline-block;
+	width:290px;
+}
+
+#date_2 {
+	height: 80px;
+	font-family: "museosans 300";
+	color: #000;
+	font-weight: normal;
+	display:inline-block;
+	width:290px;
+}
+
+#date_3 {
+	height: 80px;
+	font-family: "museosans 300";
+	color: #000;
+	font-weight: normal;
+	display:inline-block;
+	width:290px;
+}
+
+#date_or1, #date_or2 {
+	width: 50px;
+	height: 50px;
+	line-height: 0px;
+	background-color: #92181B;
+	border-radius: 25px;
+	display:inline-block;
+	position:relative;
+	top:-20px;
+
+}
+
+#datesContainer h1 {
+	font-family: "museosans 500";
+	color: #92181B;
+	font-weight: bold;
+	font-size: 2.3em;
+	font-style: normal;
+	line-height: 0.75em;
+	text-transform: capitalize;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+
+#datesContainer p {
+	font-family: "museosans 300";
+	color: #3C85AA;
+	font-weight: normal;
+	font-size: 1.5em;
+	font-style: italic;
+	line-height: 0.75em;
+}
+
+#location h1, #location1 h1, #location2 h1{
+	font-family: "museosans 500";
+	color: #92181B;
+	font-weight: bold;
+	font-size: 1.8em;
+	font-style: normal;
+	line-height: 0.5em;
+	text-transform: capitalize;
+	width: 100%;
+	float: none;
+	clear: left;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+#location p, #location1 p, #location2 p{
+	font-family: "museosans 300";
+	color: #3A83A8;
+	font-weight: normal;
+	font-size: 1.5em;
+	font-style: normal;
+	line-height: normal;
+	margin: 0px;
+	padding: 0px;
+}
+
+#location p{
+	display:inline-block;
+}
+
+#location1 p, #location2 p{
+	font-size: 1.3em;
+}
+
+#locationMultiple{
+	width:100%;
+}
+
+#locationMultiple #location1{
+	display:inline-block;
+	width:470px;
+	margin-right:50px;
+}
+
+#locationMultiple #location2{
+	display:inline-block;
+	width:470px;
+}
+
+#datesContainer #date_or1 p, #datesContainer #date_or2 p {
+	font-family: "museosans 500";
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size: 2em;
+	font-style: italic;
+	line-height: 0.75em;
+	margin: 0px;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 0px;
+	padding-left: 7px;
+}
+
+#content h3{
+	text-transform: uppercase;
+	margin-top: -25px;
+	font-size: 1.5em;
+	width: 286px;
+	text-align: center;
+	padding-bottom: 0px;
+}
+
+#content2 h4{
+	font-size: 1.2em;
+	margin-top: 5px;
+	width: 100%;
+	font-weight: 500;
+	color: #063455;
+	text-align: left;
+	font-family: "museosans 100";
+	font-style: normal;
+	line-height: 1.3em;
+	font-variant: normal;
+	text-decoration: none;
+}
+
+
+#content{
+	width: 100%;
+	height: 412px;
+	background: url('../images/content-bg.png') no-repeat;
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+	box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+	float: left;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.reformed-form {
+	border-radius: 10px 10px 10px 10px;
+	display: inline-block;
+	margin-left: 48px;
+	min-width: 210px;
+	height: 250px;
+	width: 282px;
+	margin-top: 60px;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	background-attachment: scroll;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0 0;
+	background-color: #FFF;
+	color: #95191B;
+}
+
+.reformed-form h3{
+	font-family: "museosans 100";
+}
+
+.arrow{
+	position: absolute;
+	top: 350px;
+	left: 75px;
+	margin-top: -10px;
+}
+
+.reformed-form input {
+	padding: 5px;
+	margin-top: 11px;
+	background: #e2e2e1;
+	border: 0;
+	width: 100%;
+}
+
+#content label {
+    text-align: right;
+    width: 25%;
+}
+
+dt,dl{
+	margin: 0;
+}
+
+dd{
+	width: 100%;
+}
+
+::-webkit-input-placeholder {
+   color: #959595;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #959595;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #959595;  
+}
+
+:-ms-input-placeholder {  
+   color: #959595;  
+}
+
+ input.submit-form{
+	width: 324px;
+	height: 80px;
+	text-indent: -9999em;
+	background-image: url(../images/button_1.png);
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin-top: -5px;
+	margin-right: 0px;
+	margin-left: -25px;
+	margin-bottom: 0px;
+	background-color: transparent;
+}
+.checkbox {
+	float: none;
+	width: 30px;
+	margin: 0px;
+}
+.table {
+	margin: 0px;
+	width: 300px;
+	float: left;
+}
+
+input.submit-form:hover{
+	cursor: pointer;
+}
+
+.bold-italic{
+	font-weight: 700;
+	font-style: italic;
+}
+
+iframe{
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.1);
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.1);
+	box-shadow: 0px 0px 10px rgba(0,0,0,.1);
+	float: left;
+	margin-top: -10px;
+}
+
+#content2{
+	width: 900px;
+	text-align: center;
+	/* [disabled]float: left; */
+	padding: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	overflow: hidden;
+	position:relative;
+}
+
+.included{
+	text-transform: none;
+}
+
+.box1, .box2, .box3{
+	margin-left: -1px;
+	margin-top: 10px;
+	width: 213.66px;
+	height: 180px;
+	background: #e6e6e5;
+	border: 1px solid #d1d1d1;
+	float: left;
+	border-radius: 15px;
+	padding: 10px 20px;
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.1);
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.1);
+	box-shadow: 0px 0px 10px rgba(0,0,0,.1);
+	text-align: center;
+}
+
+.box1 p, .box2 p, .box3 p{
+	text-align: left;
+	margin-top: -10px;
+	width: 217px;
+}
+
+.box2, .box3{
+	margin-left: 66px;
+}
+
+.information{
+	font-size: 1.75em;
+	margin-top: 25px;
+	margin-bottom: 5px;
+	line-height: 1.4em;
+	font-weight: normal;
+	background-color: #3C85AA;
+	color: #FFF;
+	padding: 5px;
+	width: auto;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-family: "museosans 100italic";
+	/* [disabled]box-shadow: -6px 9px -4px 5px #063455; */
+}
+h5 {
+	font-family: "museosans 500";
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-size: 15px;
+	margin-top: -10px;
+}
+#wrapper header .information h2 {
+	font-size: 1.75em;
+	margin-top: 25px;
+	margin-bottom: 5px;
+	line-height: 1.4em;
+	font-weight: normal;
+	background-color: #3C85AA;
+	color: #FFF;
+	padding: 5px;
+	width: auto;
+	font-style: normal;
+	font-family: "museosans 100italic";
+	font-variant: normal;
+	text-decoration: none;
+}
+
+
+.star{
+	margin-left: -2px;
+}
+
+.disclaimer{
+	font-size: .7em;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 650px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+
+footer{
+	width: 1000px;
+	height: 48px;
+	background: url('../images/footer.png') no-repeat;
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+	box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+}
+td {
+	width: 100px;
+	height: auto;
+}
+a {
+	text-decoration: none;
+	color: #3A83A8;
+}
+
+
+p{
+	font-weight: 300;
+}
+
+
+#fullname::-webkit-input-placeholder {
+    color:    black;
+}
+
+#fullname:-moz-placeholder {
+    color:    black;
+}
+#fullname::-moz-placeholder {
+    color:    black;
+}
+#fullname:-ms-input-placeholder {
+    color:    black;
+}
+
+
+#guestname::-webkit-input-placeholder {
+    color:    black;
+}
+
+#guestname:-moz-placeholder {
+    color:    black;
+}
+#guestname::-moz-placeholder {
+    color:    black;
+}
+#guestname:-ms-input-placeholder {
+    color:    black;
+}
+
+
+
+#email::-webkit-input-placeholder {
+    color:    black;
+}
+
+#email:-moz-placeholder {
+    color:    black;
+}
+#email::-moz-placeholder {
+    color:    black;
+}
+#email:-ms-input-placeholder {
+    color:    black;
+}
+
+
+#phone::-webkit-input-placeholder {
+    color:    black;
+}
+
+#phone:-moz-placeholder {
+    color:    black;
+}
+#phone::-moz-placeholder {
+    color:    black;
+}
+#phone:-ms-input-placeholder {
+    color:    black;
+}
+
+
+#zipcode::-webkit-input-placeholder {
+    color:    black;
+}
+
+#zipcode:-moz-placeholder {
+    color:    black;
+}
+#zipcode::-moz-placeholder {
+    color:    black;
+}
+#zipcode:-ms-input-placeholder {
+    color:    black;
+}
+
+
+
+.maximize{
+	font-size: 1.5em;
+	color: #a01d21;
+	font-weight: bold;
+	font-family: "museosans 500";
+}
+
+header{
+	padding-top: 10px;
+	width: 1000px;
+	text-align: center;
+	height: auto;
+}
+
+#player{
+	margin-top: 59px;
+	margin-left: 50px;
+	float: left;
+	border: 4px solid white;
+}
+
+#player1{
+	float: left;
+}
+
+strong{
+	font-weight: 700;
+}
+
+#loading {
+	display: none; 
+	text-align: center;
+}

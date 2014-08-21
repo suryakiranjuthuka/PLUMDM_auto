@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'museosans 100italic';
+	src: url('museosans-100italic-webfont.eot');
+	src: url('museosans-100italic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('museosans-100italic-webfont.woff') format('woff'),
+		url('museosans-100italic-webfont.ttf') format('truetype'),
+		url('museosans-100italic-webfont.svg') format('svg');
+}
